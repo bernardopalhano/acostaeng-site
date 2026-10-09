@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>A.COSTA Engenharia | Projeto estrutural no Rio de Janeiro desde 1986</title>
-<meta name="description" content="A.COSTA Engenharia: 40 anos de projeto estrutural em concreto armado, protendido e estrutura metálica. Residências de alto padrão, edifícios, comércio, escolas e indústria. Barra da Tijuca, Rio de Janeiro.">
+<meta name="description" content="A.COSTA Engenharia: 40 anos de projeto estrutural em concreto armado e estrutura metálica. Residências de alto padrão, edifícios, comércio, escolas e indústria. Barra da Tijuca, Rio de Janeiro.">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
@@ -47,7 +47,7 @@
 
   /* hero */
   .hero{position:relative;min-height:calc(100vh - 76px);max-height:820px;display:flex;align-items:flex-end;color:#fff;padding:0}
-  .hero .bg{position:absolute;inset:0;background:url(assets/hero_belco.jpg) center/cover no-repeat}
+  .hero .bg{position:absolute;inset:0;background:url(assets/v2/hero.jpg) center/cover no-repeat}
   .hero .bg:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,10,10,.82) 0%,rgba(10,10,10,.55) 45%,rgba(10,10,10,.05) 100%)}
   .hero .wrap{position:relative;width:100%;padding-bottom:72px;padding-top:72px}
   .hero .eyebrow{color:#fff;opacity:.9}
@@ -195,6 +195,29 @@
     .logos{grid-template-columns:repeat(2,1fr)}
     .cta-box{padding:28px}
   }
+  .card.wide{grid-column:span 2}
+  .card.wide .media{aspect-ratio:16/8}
+  .card .media .nfotos{position:absolute;right:12px;bottom:12px;background:rgba(0,0,0,.6);color:#fff;font-size:11px;font-family:Montserrat;font-weight:600;padding:5px 9px;border-radius:2px;z-index:2}
+  .card .cred{display:flex;justify-content:space-between;align-items:center;gap:8px}
+  .card .ver{background:none;border:0;color:var(--red);font-family:Montserrat;font-weight:700;font-size:12px;cursor:pointer;white-space:nowrap}
+  .recreio{background:#fff}
+  .predios{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+  .pr{margin:0;background:var(--bg);border-radius:var(--r);overflow:hidden;cursor:pointer;transition:.2s}
+  .pr:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.08)}
+  .pr img{width:100%;aspect-ratio:4/5;object-fit:cover}
+  .pr figcaption{padding:8px 10px 10px;font-size:12px;display:flex;flex-direction:column;gap:4px}
+  .pr b{font-family:Montserrat;font-size:13px}
+  .st{align-self:flex-start;font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:2px 6px;border-radius:2px}
+  .st-c{background:#1f6f43;color:#fff}.st-o{background:var(--ink);color:#fff}.st-l{background:var(--red);color:#fff}
+  .lb{position:fixed;inset:0;z-index:100;background:rgba(8,8,8,.97);display:none;align-items:center;justify-content:center;flex-direction:column;padding:56px 64px 24px}
+  .lb.on{display:flex}
+  .lb img{max-width:100%;max-height:calc(100vh - 150px);object-fit:contain;border-radius:2px}
+  .lb .cap{color:#ddd;font-size:14px;margin-top:14px;text-align:center}
+  .lb .cnt{color:#888;font-size:12px;margin-top:4px}
+  .lb button{position:absolute;background:rgba(255,255,255,.08);border:0;color:#fff;font-size:28px;width:52px;height:52px;border-radius:50%;cursor:pointer}
+  .lb .x{top:14px;right:16px;font-size:24px}.lb .p{left:12px;top:50%}.lb .n{right:12px;top:50%}
+  @media (max-width:980px){.predios{grid-template-columns:repeat(3,1fr)}.card.wide{grid-column:span 2}}
+  @media (max-width:620px){.predios{grid-template-columns:repeat(2,1fr)}.card.wide{grid-column:auto}.card.wide .media{aspect-ratio:4/3}.lb{padding:56px 8px 16px}.lb .p,.lb .n{top:auto;bottom:18px}}
 </style>
 </head>
 <body>
@@ -216,18 +239,18 @@
 </header>
 
 <section class="hero" id="topo">
-  <div class="bg" role="img" aria-label="Residência de alto padrão no Condomínio Mansões, Barra da Tijuca"></div>
+  <div class="bg" role="img" aria-label="Residência de alto padrão no Condomínio Mandala"></div>
   <div class="wrap">
     <div class="eyebrow">Projeto estrutural · Rio de Janeiro · desde 1986</div>
     <div class="bar"></div>
     <h1>40 anos de engenharia estrutural, <em>da indústria pesada à casa de alto padrão.</em></h1>
-    <p class="lead">Projetos em concreto armado, protendido e estrutura metálica para residências, edifícios, comércio, escolas e indústria. Do estudo preliminar ao detalhamento.</p>
+    <p class="lead">Projetos em concreto armado e estrutura metálica para residências, edifícios, comércio, escolas e indústria. Do estudo preliminar ao detalhamento.</p>
     <div class="ctas">
       <a class="btn btn-red" href="https://wa.me/5521988762080" target="_blank" rel="noopener">Falar no WhatsApp</a>
       <a class="btn btn-ghost" href="#projetos">Ver projetos</a>
     </div>
   </div>
-  <div class="credit">Residência no Cond. Mansões, Barra da Tijuca</div>
+  <div class="credit">Residência no Condomínio Mandala</div>
 </section>
 
 <section class="kpis">
@@ -262,7 +285,7 @@
       <p>Uma equipe para todas as escalas: da residência ao complexo industrial, com o mesmo rigor técnico.</p>
     </div>
     <div class="serv-grid">
-      <div class="serv"><div class="ico">C</div><h3>Concreto armado e protendido</h3><p>Edifícios, residências, lajes de grandes vãos e balanços, reservatórios, contenções e fundações.</p></div>
+      <div class="serv"><div class="ico">C</div><h3>Concreto armado</h3><p>Edifícios, residências, lajes de grandes vãos e balanços, reservatórios, contenções e fundações.</p></div>
       <div class="serv"><div class="ico">A</div><h3>Estruturas metálicas</h3><p>Aço e alumínio: galpões, coberturas, mezaninos, passarelas, pipe-racks, plataformas e ampliações sobre edifícios existentes.</p></div>
       <div class="serv"><div class="ico">L</div><h3>Reforços, laudos e consultoria</h3><p>Verificação de estruturas existentes, reforço estrutural, retrofit, laudos técnicos e apoio à obra.</p></div>
     </div>
@@ -283,71 +306,79 @@
       <button class="on" data-f="all">Todos</button>
       <button data-f="res">Residencial</button>
       <button data-f="multi">Multifamiliar</button>
-      <button data-f="com">Comercial e educação</button>
+      <button data-f="com">Comercial</button>
+      <button data-f="pub">Equipamento público</button>
       <button data-f="aco">Reforço e metálica</button>
     </div>
     <div class="grid" id="grid">
-
-      <article class="card" data-c="res">
-        <div class="media"><img class="a" src="assets/belco_a.jpg" alt="Residência no Condomínio Mansões" loading="lazy"><img class="b photo" src="assets/belco_b.jpg" alt="Vista aérea" loading="lazy"><span class="flag">Outra vista</span></div>
-        <div class="body"><div class="tag">Residencial alto padrão</div><h3>Residência no Condomínio Mansões</h3><div class="loc">Barra da Tijuca, RJ</div><p>Subsolo afastado das divisas e mais 3 pavimentos, em concreto armado.</p><div class="cred">Concreto armado</div></div>
+      <article class="card wide" data-c="pub" data-gal='[[&quot;assets/v2/bio_entrada.jpg&quot;, &quot;Entrada do BioParque do Rio&quot;], [&quot;assets/v2/bio_cover.jpg&quot;, &quot;Prédio histórico reformado&quot;], [&quot;assets/v2/bio_patio.jpg&quot;, &quot;Pátio dos prédios históricos&quot;], [&quot;assets/v2/bio_leao_antes.jpg&quot;, &quot;Antigo recinto dos leões, antes da obra&quot;], [&quot;assets/v2/bio_leao_antes2.jpg&quot;, &quot;Recinto antigo: levantamento da estrutura existente&quot;], [&quot;assets/v2/bio_felinos3d.jpg&quot;, &quot;Modelo estrutural: recinto dos pequenos felinos&quot;], [&quot;assets/v2/bio_felinos3d_2.jpg&quot;, &quot;Fundações e muros do recinto dos pequenos felinos&quot;], [&quot;assets/v2/bio_lobomarinho.jpg&quot;, &quot;Modelo: tanque do lobo-marinho e da lontra&quot;], [&quot;assets/v2/bio_lobomarinho2.jpg&quot;, &quot;Tanque do lobo-marinho e da lontra&quot;], [&quot;assets/v2/bio_pinguins.jpg&quot;, &quot;Modelo: área dos pinguins&quot;], [&quot;assets/v2/bio_croqui.jpg&quot;, &quot;Croqui à mão do tanque&quot;], [&quot;assets/v2/bio_croqui2.jpg&quot;, &quot;Croqui à mão: cortes do tanque&quot;]]'>
+        <div class="media"><img class="a" src="assets/v2/bio_cover.jpg" alt="BioParque do Rio" loading="lazy"><img class="b" src="assets/v2/bio_felinos3d.jpg" alt="BioParque do Rio: Raio-X" loading="lazy"><span class="flag">Raio-X</span><span class="nfotos">12 imagens</span></div>
+        <div class="body"><div class="tag">Equipamento público</div><h3>BioParque do Rio</h3><div class="loc">São Cristóvão, RJ</div><p>Projeto estrutural dos novos recintos dos leões, tigres, onça, pequenos felinos e lobo-guará, do tanque do lobo-marinho e da lontra e da área dos pinguins, além de reforços nos prédios históricos do antigo Zoológico.</p><div class="cred">Concreto armado · fundações · reforço<button class="ver">Ver projeto →</button></div></div>
       </article>
-
-      <article class="card" data-c="res">
-        <div class="media"><img class="a" src="assets/wimb_a.jpg" alt="Residência no Wimbledon Park" loading="lazy"><img class="b" src="assets/wimb_b.jpg" alt="Pórtico 3D da estrutura" loading="lazy"><span class="flag">Raio-X</span></div>
-        <div class="body"><div class="tag">Residencial alto padrão</div><h3>Residência no Wimbledon Park</h3><div class="loc">Barra da Tijuca, RJ</div><p>Volumes em balanço e grandes panos de vidro resolvidos com pórticos em concreto armado.</p><div class="cred">Concreto armado · pórticos</div></div>
+      <article class="card" data-c="res" data-gal='[[&quot;assets/v2/q17_render.jpg&quot;, &quot;Fachada&quot;], [&quot;assets/v2/q17_render2.jpg&quot;, &quot;Acesso&quot;], [&quot;assets/v2/q17_arq.jpg&quot;, &quot;Modelo BIM da arquitetura&quot;], [&quot;assets/v2/q17_arq2.jpg&quot;, &quot;Modelo BIM da arquitetura&quot;], [&quot;assets/v2/q17_est.jpg&quot;, &quot;Raio-X: modelo estrutural (pilares em vermelho)&quot;], [&quot;assets/v2/q17_est2.jpg&quot;, &quot;Raio-X: modelo estrutural&quot;]]'>
+        <div class="media"><img class="a" src="assets/v2/q17_render.jpg" alt="Residência em Alphaville · Quadra 17" loading="lazy"><img class="b" src="assets/v2/q17_est.jpg" alt="Residência em Alphaville · Quadra 17: Raio-X" loading="lazy"><span class="flag">Raio-X</span><span class="nfotos">6 imagens</span></div>
+        <div class="body"><div class="tag">Residencial alto padrão</div><h3>Residência em Alphaville · Quadra 17</h3><div class="loc">Alphaville, Barra da Tijuca, RJ</div><p>Casa de esquina com subsolo, térreo, pavimento superior e rooftop. Estrutura em concreto armado compatibilizada em BIM com a arquitetura.</p><div class="cred">Concreto armado · BIM (IFC)<button class="ver">Ver projeto →</button></div></div>
       </article>
-
-      <article class="card" data-c="res">
-        <div class="media"><img class="a" src="assets/mandala_a.jpg" alt="Residência no Condomínio Mandala" loading="lazy"><img class="b" src="assets/mandala_b.jpg" alt="Modelo estrutural 3D" loading="lazy"><span class="flag">Raio-X</span></div>
-        <div class="body"><div class="tag">Residencial alto padrão</div><h3>Residência no Condomínio Mandala</h3><div class="loc">Rio de Janeiro, RJ</div><p>Balanços na frente e nos fundos, piscina elevada e terraço, com modelagem 3D completa.</p><div class="cred">Concreto armado · balanços</div></div>
+      <article class="card" data-c="res" data-gal='[[&quot;assets/v2/q20_v2.jpg&quot;, &quot;Volumetria da arquitetura&quot;], [&quot;assets/v2/q20_v1.jpg&quot;, &quot;Volumetria da arquitetura&quot;], [&quot;assets/v2/q20_v3.jpg&quot;, &quot;Volumetria da arquitetura&quot;], [&quot;assets/v2/q20_arq.jpg&quot;, &quot;Modelo BIM da arquitetura&quot;], [&quot;assets/v2/q20_est.jpg&quot;, &quot;Raio-X: modelo estrutural (pilares em vermelho)&quot;]]'>
+        <div class="media"><img class="a" src="assets/v2/q20_v2.jpg" alt="Residência em Alphaville · Quadra 20" loading="lazy"><img class="b" src="assets/v2/q20_est.jpg" alt="Residência em Alphaville · Quadra 20: Raio-X" loading="lazy"><span class="flag">Raio-X</span><span class="nfotos">5 imagens</span></div>
+        <div class="body"><div class="tag">Residencial alto padrão</div><h3>Residência em Alphaville · Quadra 20</h3><div class="loc">Alphaville, Barra da Tijuca, RJ</div><p>Casa de esquina com volumes em balanço, modelada em BIM. Estrutura em concreto armado.</p><div class="cred">Concreto armado · BIM (IFC)<button class="ver">Ver projeto →</button></div></div>
       </article>
-
-      <article class="card" data-c="res">
-        <div class="media"><img class="a" src="assets/smon_a.jpg" alt="Residência no Santa Mônica" loading="lazy"><img class="b" src="assets/smon_b.jpg" alt="Modelo estrutural 3D" loading="lazy"><span class="flag">Raio-X</span></div>
-        <div class="body"><div class="tag">Residencial alto padrão</div><h3>Residência no Santa Mônica</h3><div class="loc">Barra da Tijuca, RJ</div><p>Casa de dois pavimentos com piscina e cobertura, estrutura compatibilizada com a arquitetura.</p><div class="cred">Concreto armado</div></div>
+      <article class="card" data-c="res" data-gal='[[&quot;assets/v2/angie_a.jpg&quot;, &quot;Volumetria da arquitetura&quot;], [&quot;assets/v2/angie_b.jpg&quot;, &quot;Volumetria da arquitetura&quot;], [&quot;assets/v2/angie_c.jpg&quot;, &quot;Volumetria da arquitetura&quot;], [&quot;assets/v2/angie_est.jpg&quot;, &quot;Raio-X: modelo estrutural (pilares em vermelho)&quot;], [&quot;assets/v2/angie_ebk.jpg&quot;, &quot;Modelo estrutural no software de cálculo&quot;], [&quot;assets/v2/angie_desl.jpg&quot;, &quot;Mapa de deslocamentos da laje (teto 1)&quot;], [&quot;assets/v2/angie_desl2.jpg&quot;, &quot;Mapa de deslocamentos da laje (teto 2)&quot;]]'>
+        <div class="media"><img class="a" src="assets/v2/angie_a.jpg" alt="Residência no Condomínio Mansões" loading="lazy"><img class="b" src="assets/v2/angie_est.jpg" alt="Residência no Condomínio Mansões: Raio-X" loading="lazy"><span class="flag">Raio-X</span><span class="nfotos">7 imagens</span></div>
+        <div class="body"><div class="tag">Residencial alto padrão</div><h3>Residência no Condomínio Mansões</h3><div class="loc">Barra da Tijuca, RJ</div><p>Casa em terreno com desnível, piscina e grandes vãos. Modelo estrutural 3D e análise de deslocamentos das lajes.</p><div class="cred">Concreto armado · análise de lajes<button class="ver">Ver projeto →</button></div></div>
       </article>
-
-      <article class="card" data-c="res">
-        <div class="media"><img class="a" src="assets/portob_a.jpg" alt="Residência na Costa Verde, modelo estrutural" loading="lazy"><img class="b" src="assets/portob_b.jpg" alt="Modelo estrutural 3D" loading="lazy"><span class="flag">Outra vista</span></div>
-        <div class="body"><div class="tag">Residencial alto padrão</div><h3>Residência na Costa Verde</h3><div class="loc">Costa Verde, RJ</div><p>Fundações profundas em estacas e estrutura em concreto armado adaptada ao terreno.</p><div class="cred">Modelo estrutural A.COSTA</div></div>
+      <article class="card" data-c="res" data-gal='[[&quot;assets/v2/mand_a.jpg&quot;, &quot;Fachada&quot;], [&quot;assets/v2/hero.jpg&quot;, &quot;Piscina&quot;], [&quot;assets/v2/mand_b.jpg&quot;, &quot;Fachada&quot;], [&quot;assets/v2/mand_c.jpg&quot;, &quot;Acesso&quot;], [&quot;assets/v2/mand_est.jpg&quot;, &quot;Raio-X: modelo estrutural (pilares em vermelho)&quot;], [&quot;assets/v2/mand_ebk.jpg&quot;, &quot;Pórtico 3D: balanços e piscina&quot;], [&quot;assets/v2/mand_corte.jpg&quot;, &quot;Corte 3D: piscina e escada&quot;]]'>
+        <div class="media"><img class="a" src="assets/v2/mand_a.jpg" alt="Residência no Condomínio Mandala" loading="lazy"><img class="b" src="assets/v2/mand_est.jpg" alt="Residência no Condomínio Mandala: Raio-X" loading="lazy"><span class="flag">Raio-X</span><span class="nfotos">7 imagens</span></div>
+        <div class="body"><div class="tag">Residencial alto padrão</div><h3>Residência no Condomínio Mandala</h3><div class="loc">Rio de Janeiro, RJ</div><p>Balanços na frente e nos fundos, piscina elevada e terraço. Estrutura em concreto armado com modelagem 3D completa.</p><div class="cred">Concreto armado · balanços<button class="ver">Ver projeto →</button></div></div>
       </article>
-
-      <article class="card" data-c="multi">
-        <div class="media"><img class="a" src="assets/genova_a.jpg" alt="Porto di Genova Residences, projeto" loading="lazy"><img class="b photo" src="assets/genova_b.jpg" alt="Porto di Genova Residences, prédio pronto" loading="lazy"><span class="flag">Pronto</span></div>
-        <div class="body"><div class="tag">Multifamiliar</div><h3>Porto di Genova Residences</h3><div class="loc">Grajaú, RJ</div><p>Edifício residencial multifamiliar: do projeto estrutural à obra entregue.</p><div class="cred">Projeto × obra concluída</div></div>
+      <article class="card" data-c="com" data-gal='[[&quot;assets/v2/dna_fachada.jpg&quot;, &quot;Fachada&quot;], [&quot;assets/v2/dna_hall.jpg&quot;, &quot;Recepção&quot;], [&quot;assets/v2/dna_vao.jpg&quot;, &quot;Salão de musculação: grandes vãos&quot;], [&quot;assets/v2/dna_vao2.jpg&quot;, &quot;Grandes vãos sob a cobertura metálica&quot;], [&quot;assets/v2/dna_escada.jpg&quot;, &quot;Escada metálica&quot;], [&quot;assets/v2/dna_rooftop.jpg&quot;, &quot;Rooftop&quot;], [&quot;assets/v2/dna_3d.jpg&quot;, &quot;Modelo estrutural&quot;], [&quot;assets/v2/dna_3d2.jpg&quot;, &quot;Modelo estrutural&quot;]]'>
+        <div class="media"><img class="a" src="assets/v2/dna_fachada.jpg" alt="Academia DNA Experience" loading="lazy"><img class="b" src="assets/v2/dna_3d.jpg" alt="Academia DNA Experience: Raio-X" loading="lazy"><span class="flag">Raio-X</span><span class="nfotos">8 imagens</span></div>
+        <div class="body"><div class="tag">Comercial</div><h3>Academia DNA Experience</h3><div class="loc">Barra da Tijuca, RJ</div><p>Academia de 5.815 m² com grandes vãos, escada metálica e rooftop. Estrutura em concreto armado com previsão para a cobertura metálica.</p><div class="cred">Concreto armado + estrutura metálica<button class="ver">Ver projeto →</button></div></div>
       </article>
-
-      <article class="card" data-c="multi">
-        <div class="media"><img class="a" src="assets/nice_a.jpg" alt="Porto de Nice, Gamboa" loading="lazy"><img class="b photo" src="assets/nice_b.jpg" alt="Terreno antes da obra" loading="lazy"><span class="flag">Antes</span></div>
-        <div class="body"><div class="tag">Multifamiliar e lojas</div><h3>Porto de Nice</h3><div class="loc">Gamboa, RJ</div><p>Prédio residencial multifamiliar com lojas no térreo, na região portuária.</p><div class="cred">Rua Sacadura Cabral</div></div>
+      <article class="card" data-c="aco" data-gal='[[&quot;assets/v2/cbf_3d.jpg&quot;, &quot;Esquema 3D do reforço&quot;], [&quot;assets/v2/cbf_3d2.jpg&quot;, &quot;Vigamento metálico do reforço&quot;], [&quot;assets/v2/cbf_obra.jpg&quot;, &quot;Reforço instalado&quot;], [&quot;assets/v2/cbf_obra2.jpg&quot;, &quot;Ligações do reforço metálico&quot;], [&quot;assets/v2/cbf_obra3.jpg&quot;, &quot;Vigas metálicas instaladas&quot;]]'>
+        <div class="media"><img class="a" src="assets/v2/cbf_3d.jpg" alt="Sede da CBF" loading="lazy"><img class="b photo" src="assets/v2/cbf_obra.jpg" alt="Sede da CBF: Na obra" loading="lazy"><span class="flag">Na obra</span><span class="nfotos">5 imagens</span></div>
+        <div class="body"><div class="tag">Reforço em aço</div><h3>Sede da CBF</h3><div class="loc">Barra da Tijuca, RJ</div><p>Reforço em estrutura metálica com escoramento e demolição de pilar existente.</p><div class="cred">Estrutura metálica · ASTM A36/A572<button class="ver">Ver projeto →</button></div></div>
       </article>
-
-      <article class="card" data-c="com">
-        <div class="media"><img class="a" src="assets/pensi_a.jpg" alt="Escola Pensi Flamengo" loading="lazy"><img class="b photo" src="assets/pensi_b.jpg" alt="Quadra coberta" loading="lazy"><span class="flag">Interior</span></div>
-        <div class="body"><div class="tag">Educação</div><h3>Escola Pensi Flamengo</h3><div class="loc">Flamengo, RJ</div><p>Edificação escolar com quadra coberta e grandes vãos livres.</p><div class="cred">Educação · grandes vãos</div></div>
+      <article class="card" data-c="multi" data-gal='[[&quot;assets/v2/gen_render.jpg&quot;, &quot;Projeto&quot;], [&quot;assets/v2/gen_pronto.jpg&quot;, &quot;Prédio pronto&quot;], [&quot;assets/v2/gen_pronto2.jpg&quot;, &quot;Fachada&quot;], [&quot;assets/v2/gen_rua.jpg&quot;, &quot;Vista da rua&quot;], [&quot;assets/v2/gen_hall.jpg&quot;, &quot;Hall e escadas&quot;], [&quot;assets/v2/gen_obra.jpg&quot;, &quot;Sondagem do terreno&quot;]]'>
+        <div class="media"><img class="a" src="assets/v2/gen_render.jpg" alt="Porto di Genova Residences" loading="lazy"><img class="b photo" src="assets/v2/gen_pronto.jpg" alt="Porto di Genova Residences: Pronto" loading="lazy"><span class="flag">Pronto</span><span class="nfotos">6 imagens</span></div>
+        <div class="body"><div class="tag">Multifamiliar</div><h3>Porto di Genova Residences</h3><div class="loc">Grajaú, RJ</div><p>Edifício residencial multifamiliar acompanhado da sondagem do terreno à entrega.</p><div class="cred">Do projeto à obra entregue<button class="ver">Ver projeto →</button></div></div>
       </article>
+    </div>
+  </div>
+</section>
 
-      <article class="card" data-c="com">
-        <div class="media"><img class="a" src="assets/dna_a.jpg" alt="Academia DNA Experience, modelo 3D" loading="lazy"><img class="b" src="assets/dna_b.jpg" alt="Detalhe do modelo estrutural" loading="lazy"><span class="flag">Raio-X</span></div>
-        <div class="body"><div class="tag">Comercial</div><h3>Academia DNA Experience</h3><div class="loc">Barra Golf, Barra da Tijuca, RJ</div><p>Estrutura em concreto armado já prevendo a futura cobertura metálica.</p><div class="cred">Concreto armado + cobertura metálica</div></div>
-      </article>
-
-      <article class="card" data-c="aco">
-        <div class="media"><img class="a" src="assets/cbf_b.jpg" alt="Sede da CBF, esquema 3D do reforço" loading="lazy"><img class="b photo" src="assets/cbf_a.jpg" alt="Reforço metálico na obra" loading="lazy"><span class="flag">Na obra</span></div>
-        <div class="body"><div class="tag">Reforço em aço</div><h3>Sede da CBF</h3><div class="loc">Barra da Tijuca, RJ</div><p>Reforço em estrutura metálica com escoramento e demolição de pilar existente.</p><div class="cred">Estrutura metálica · ASTM A36/A572</div></div>
-      </article>
-
-      <article class="card" data-c="aco">
-        <div class="media"><img class="a" src="assets/vilamad_a.jpg" alt="Hotel Vila Madalena" loading="lazy"><img class="b photo" src="assets/vilamad_b.jpg" alt="Cobertura do hotel" loading="lazy"><span class="flag">Cobertura</span></div>
-        <div class="body"><div class="tag">Ampliação em aço</div><h3>Hotel Vila Madalena</h3><div class="loc">Vila Madalena</div><p>Novo pavimento em estrutura metálica sobre edifício existente, com verificação da estrutura atual.</p><div class="cred">Retrofit e ampliação vertical</div></div>
-      </article>
-
-      <article class="card" data-c="com">
-        <div class="media"><img class="a" src="assets/riozoo_a.jpg" alt="BioParque do Rio, recinto" loading="lazy"><img class="b" src="assets/riozoo_b.jpg" alt="Tanques, modelo 3D" loading="lazy"><span class="flag">Outra vista</span></div>
-        <div class="body"><div class="tag">Equipamento público</div><h3>BioParque do Rio</h3><div class="loc">São Cristóvão, RJ</div><p>Recintos de animais, tanques e edificações de apoio em concreto armado.</p><div class="cred">Concreto armado</div></div>
-      </article>
-
+<section class="recreio" id="recreio">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="eyebrow">Edifícios residenciais</div>
+      <h2>24 prédios no Recreio dos Bandeirantes</h2>
+      <p>Projeto estrutural de edifícios multifamiliares, do lançamento à obra entregue, em parceria com a Construtora Justiniano Rocha. Toque em um prédio para ampliar.</p>
+    </div>
+    <div class="predios" id="predios" data-gal='[[&quot;assets/v2/jr/jr_03.jpg&quot;, &quot;Residencial Kapalai · Em obra&quot;], [&quot;assets/v2/jr/jr_04.jpg&quot;, &quot;Residencial Navagio · Em obra&quot;], [&quot;assets/v2/jr/jr_22.jpg&quot;, &quot;Residencial Arcos Lemos Bastos · Lançamento&quot;], [&quot;assets/v2/jr/jr_00.jpg&quot;, &quot;Residencial Ventura Beach · Em obra&quot;], [&quot;assets/v2/jr/jr_01.jpg&quot;, &quot;Residencial Tongass Forest · Em obra&quot;], [&quot;assets/v2/jr/jr_05.jpg&quot;, &quot;Residencial Cala Luna · Em obra&quot;], [&quot;assets/v2/jr/jr_23.jpg&quot;, &quot;Residencial Kamari Beach · Lançamento&quot;], [&quot;assets/v2/jr/jr_06.jpg&quot;, &quot;Residencial Rinato · Em obra&quot;], [&quot;assets/v2/jr/jr_02.jpg&quot;, &quot;Residencial Roatán · Em obra&quot;], [&quot;assets/v2/jr/jr_12.jpg&quot;, &quot;Residencial Cervães · Concluído&quot;], [&quot;assets/v2/jr/jr_13.jpg&quot;, &quot;Residencial Copacabana · Concluído&quot;], [&quot;assets/v2/jr/jr_14.jpg&quot;, &quot;Residencial Fontes · Concluído&quot;], [&quot;assets/v2/jr/jr_15.jpg&quot;, &quot;Residencial M Brandão · Concluído&quot;], [&quot;assets/v2/jr/jr_16.jpg&quot;, &quot;Residencial Ilda Fernandes · Concluído&quot;], [&quot;assets/v2/jr/jr_17.jpg&quot;, &quot;Residencial Jatiuca · Concluído&quot;], [&quot;assets/v2/jr/jr_18.jpg&quot;, &quot;Residencial Tia Laura · Concluído&quot;], [&quot;assets/v2/jr/jr_19.jpg&quot;, &quot;Residencial Iva Chaves e Bemposta · Concluído&quot;], [&quot;assets/v2/jr/jr_20.jpg&quot;, &quot;Residencial Estoril · Concluído&quot;], [&quot;assets/v2/jr/jr_21.jpg&quot;, &quot;Residencial D’ Alcantara · Concluído&quot;], [&quot;assets/v2/jr/jr_07.jpg&quot;, &quot;Residencial Pedra da Lua · Em obra&quot;], [&quot;assets/v2/jr/jr_08.jpg&quot;, &quot;Residencial Pontal da Barra · Em obra&quot;], [&quot;assets/v2/jr/jr_09.jpg&quot;, &quot;Residencial Sete Coqueiros · Em obra&quot;], [&quot;assets/v2/jr/jr_10.jpg&quot;, &quot;Residencial Tatiane Almeida · Em obra&quot;], [&quot;assets/v2/jr/jr_11.jpg&quot;, &quot;Residencial Mendes de Almeida · Em obra&quot;]]'>
+      <figure class="pr" data-i="0"><img src="assets/v2/jr/jr_03.jpg" alt="Residencial Kapalai" loading="lazy"><figcaption><b>Kapalai</b><span class="st st-o">Em obra</span></figcaption></figure>
+      <figure class="pr" data-i="1"><img src="assets/v2/jr/jr_04.jpg" alt="Residencial Navagio" loading="lazy"><figcaption><b>Navagio</b><span class="st st-o">Em obra</span></figcaption></figure>
+      <figure class="pr" data-i="2"><img src="assets/v2/jr/jr_22.jpg" alt="Residencial Arcos Lemos Bastos" loading="lazy"><figcaption><b>Arcos Lemos Bastos</b><span class="st st-l">Lançamento</span></figcaption></figure>
+      <figure class="pr" data-i="3"><img src="assets/v2/jr/jr_00.jpg" alt="Residencial Ventura Beach" loading="lazy"><figcaption><b>Ventura Beach</b><span class="st st-o">Em obra</span></figcaption></figure>
+      <figure class="pr" data-i="4"><img src="assets/v2/jr/jr_01.jpg" alt="Residencial Tongass Forest" loading="lazy"><figcaption><b>Tongass Forest</b><span class="st st-o">Em obra</span></figcaption></figure>
+      <figure class="pr" data-i="5"><img src="assets/v2/jr/jr_05.jpg" alt="Residencial Cala Luna" loading="lazy"><figcaption><b>Cala Luna</b><span class="st st-o">Em obra</span></figcaption></figure>
+      <figure class="pr" data-i="6"><img src="assets/v2/jr/jr_23.jpg" alt="Residencial Kamari Beach" loading="lazy"><figcaption><b>Kamari Beach</b><span class="st st-l">Lançamento</span></figcaption></figure>
+      <figure class="pr" data-i="7"><img src="assets/v2/jr/jr_06.jpg" alt="Residencial Rinato" loading="lazy"><figcaption><b>Rinato</b><span class="st st-o">Em obra</span></figcaption></figure>
+      <figure class="pr" data-i="8"><img src="assets/v2/jr/jr_02.jpg" alt="Residencial Roatán" loading="lazy"><figcaption><b>Roatán</b><span class="st st-o">Em obra</span></figcaption></figure>
+      <figure class="pr" data-i="9"><img src="assets/v2/jr/jr_12.jpg" alt="Residencial Cervães" loading="lazy"><figcaption><b>Cervães</b><span class="st st-c">Concluído</span></figcaption></figure>
+      <figure class="pr" data-i="10"><img src="assets/v2/jr/jr_13.jpg" alt="Residencial Copacabana" loading="lazy"><figcaption><b>Copacabana</b><span class="st st-c">Concluído</span></figcaption></figure>
+      <figure class="pr" data-i="11"><img src="assets/v2/jr/jr_14.jpg" alt="Residencial Fontes" loading="lazy"><figcaption><b>Fontes</b><span class="st st-c">Concluído</span></figcaption></figure>
+      <figure class="pr" data-i="12"><img src="assets/v2/jr/jr_15.jpg" alt="Residencial M Brandão" loading="lazy"><figcaption><b>M Brandão</b><span class="st st-c">Concluído</span></figcaption></figure>
+      <figure class="pr" data-i="13"><img src="assets/v2/jr/jr_16.jpg" alt="Residencial Ilda Fernandes" loading="lazy"><figcaption><b>Ilda Fernandes</b><span class="st st-c">Concluído</span></figcaption></figure>
+      <figure class="pr" data-i="14"><img src="assets/v2/jr/jr_17.jpg" alt="Residencial Jatiuca" loading="lazy"><figcaption><b>Jatiuca</b><span class="st st-c">Concluído</span></figcaption></figure>
+      <figure class="pr" data-i="15"><img src="assets/v2/jr/jr_18.jpg" alt="Residencial Tia Laura" loading="lazy"><figcaption><b>Tia Laura</b><span class="st st-c">Concluído</span></figcaption></figure>
+      <figure class="pr" data-i="16"><img src="assets/v2/jr/jr_19.jpg" alt="Residencial Iva Chaves e Bemposta" loading="lazy"><figcaption><b>Iva Chaves e Bemposta</b><span class="st st-c">Concluído</span></figcaption></figure>
+      <figure class="pr" data-i="17"><img src="assets/v2/jr/jr_20.jpg" alt="Residencial Estoril" loading="lazy"><figcaption><b>Estoril</b><span class="st st-c">Concluído</span></figcaption></figure>
+      <figure class="pr" data-i="18"><img src="assets/v2/jr/jr_21.jpg" alt="Residencial D’ Alcantara" loading="lazy"><figcaption><b>D’ Alcantara</b><span class="st st-c">Concluído</span></figcaption></figure>
+      <figure class="pr" data-i="19"><img src="assets/v2/jr/jr_07.jpg" alt="Residencial Pedra da Lua" loading="lazy"><figcaption><b>Pedra da Lua</b><span class="st st-o">Em obra</span></figcaption></figure>
+      <figure class="pr" data-i="20"><img src="assets/v2/jr/jr_08.jpg" alt="Residencial Pontal da Barra" loading="lazy"><figcaption><b>Pontal da Barra</b><span class="st st-o">Em obra</span></figcaption></figure>
+      <figure class="pr" data-i="21"><img src="assets/v2/jr/jr_09.jpg" alt="Residencial Sete Coqueiros" loading="lazy"><figcaption><b>Sete Coqueiros</b><span class="st st-o">Em obra</span></figcaption></figure>
+      <figure class="pr" data-i="22"><img src="assets/v2/jr/jr_10.jpg" alt="Residencial Tatiane Almeida" loading="lazy"><figcaption><b>Tatiane Almeida</b><span class="st st-o">Em obra</span></figcaption></figure>
+      <figure class="pr" data-i="23"><img src="assets/v2/jr/jr_11.jpg" alt="Residencial Mendes de Almeida" loading="lazy"><figcaption><b>Mendes de Almeida</b><span class="st st-o">Em obra</span></figcaption></figure>
     </div>
   </div>
 </section>
@@ -389,7 +420,7 @@
       <div class="eyebrow">Empresa</div>
       <h2 class="mont" style="font-size:clamp(28px,3.4vw,40px);line-height:1.15;margin:10px 0 18px;font-weight:800">Duas gerações, o mesmo compromisso</h2>
       <p>Fundada em 1986, a A.COSTA Engenharia se especializou em projetos de concreto armado para obras industriais e prediais. Com o tempo, e para atender melhor seus clientes, passou a projetar também estruturas metálicas.</p>
-      <p>Hoje, com 40 anos de atividade, desenvolve projetos estruturais em concreto armado e protendido e em estruturas metálicas de aço e alumínio, para residências de alto padrão, edifícios, comércio, escolas, saúde e indústria.</p>
+      <p>Hoje, com 40 anos de atividade, desenvolve projetos estruturais em concreto armado e em estruturas metálicas de aço e alumínio, para residências de alto padrão, edifícios, comércio, escolas, saúde e indústria.</p>
       <blockquote>“Participar de um empreendimento de engenharia é buscar constantemente a qualidade, a eficiência e a segurança, não esquecendo do compromisso em soluções econômicas.”<cite>Augusto J. P. Costa, fundador</cite></blockquote>
     </div>
     <div class="pessoas">
@@ -452,7 +483,7 @@
 <footer>
   <div class="wrap">
     <div class="row">
-      <div><img src="assets/logo_placa.png" alt="A.COSTA Engenharia" style="height:64px;width:auto"><p style="margin-top:14px;max-width:360px">Projeto estrutural em concreto armado, protendido e estrutura metálica desde 1986.</p></div>
+      <div><img src="assets/logo_placa.png" alt="A.COSTA Engenharia" style="height:64px;width:auto"><p style="margin-top:14px;max-width:360px">Projeto estrutural em concreto armado e estrutura metálica desde 1986.</p></div>
       <div><h4>Contato</h4>(21) 2223-1176<br>(21) 98876-2080<br>acostaeng@acostaeng.com.br</div>
       <div><h4>Redes</h4><div class="social"><a href="https://www.instagram.com/acosta_engenharia/" target="_blank" rel="noopener">Instagram</a><a href="#">LinkedIn</a></div></div>
     </div>
@@ -474,6 +505,24 @@
   document.querySelectorAll('.card .media').forEach(m => m.addEventListener('click', () => m.parentElement.classList.toggle('flip')));
   // fecha menu ao clicar
   document.querySelectorAll('#nav ul a').forEach(a => a.addEventListener('click', () => document.getElementById('nav').classList.remove('open')));
+</script>
+<div class="lb" id="lb" role="dialog" aria-modal="true"><button class="x" aria-label="Fechar">✕</button><button class="p" aria-label="Anterior">‹</button><img alt=""><div class="cap"></div><div class="cnt"></div><button class="n" aria-label="Próxima">›</button></div>
+<script>
+  (function(){
+    const lb=document.getElementById('lb'), im=lb.querySelector('img'), cap=lb.querySelector('.cap'), cnt=lb.querySelector('.cnt');
+    let G=[], k=0;
+    function show(){ im.src=G[k][0]; cap.textContent=G[k][1]; cnt.textContent=(k+1)+' / '+G.length; }
+    function open(g,i){ G=g; k=i||0; show(); lb.classList.add('on'); document.body.style.overflow='hidden'; }
+    function close(){ lb.classList.remove('on'); document.body.style.overflow=''; }
+    lb.querySelector('.x').onclick=close; lb.onclick=e=>{ if(e.target===lb) close(); };
+    lb.querySelector('.p').onclick=e=>{e.stopPropagation(); k=(k-1+G.length)%G.length; show();};
+    lb.querySelector('.n').onclick=e=>{e.stopPropagation(); k=(k+1)%G.length; show();};
+    document.addEventListener('keydown',e=>{ if(!lb.classList.contains('on')) return; if(e.key==='Escape') close(); if(e.key==='ArrowLeft') lb.querySelector('.p').click(); if(e.key==='ArrowRight') lb.querySelector('.n').click(); });
+    let x0=null; lb.addEventListener('touchstart',e=>x0=e.touches[0].clientX,{passive:true}); lb.addEventListener('touchend',e=>{ if(x0===null) return; const dx=e.changedTouches[0].clientX-x0; if(Math.abs(dx)>40) (dx>0?lb.querySelector('.p'):lb.querySelector('.n')).click(); x0=null; });
+    document.querySelectorAll('#grid .card').forEach(c=>{ const g=JSON.parse(c.dataset.gal); c.querySelector('.ver').onclick=e=>{e.stopPropagation(); open(g,0);}; c.querySelector('.body h3').style.cursor='pointer'; c.querySelector('.body h3').onclick=()=>open(g,0); });
+    const P=document.getElementById('predios'), pg=JSON.parse(P.dataset.gal);
+    P.querySelectorAll('.pr').forEach(f=>f.onclick=()=>open(pg,+f.dataset.i));
+  })();
 </script>
 </body>
 </html>

@@ -1,0 +1,170 @@
+[
+ {
+  "nome": "Residencial Ventura Beach",
+  "status": "Em obra",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2024/11/FACHADA_FINAL.jpg",
+  "file": "img/00_Residencial_Ventura_Beach.jpg",
+  "web": "assets/v2/jr/jr_00.jpg"
+ },
+ {
+  "nome": "Residencial Tongass Forest",
+  "status": "Em obra",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2024/11/capa-tongass-forest.jpg",
+  "file": "img/01_Residencial_Tongass_Forest.jpg",
+  "web": "assets/v2/jr/jr_01.jpg"
+ },
+ {
+  "nome": "Residencial Roatán",
+  "status": "Em obra",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2023/08/VARANDA-REV00.jpg",
+  "file": "img/02_Residencial_Roatán.jpg",
+  "web": "assets/v2/jr/jr_02.jpg"
+ },
+ {
+  "nome": "Residencial Kapalai",
+  "status": "Em obra",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2023/04/NOTURNA__FINAL-Large-1.jpg",
+  "file": "img/03_Residencial_Kapalai.jpg",
+  "web": "assets/v2/jr/jr_03.jpg"
+ },
+ {
+  "nome": "Residencial Navagio",
+  "status": "Em obra",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2022/09/residencial-navagio.jpeg",
+  "file": "img/04_Residencial_Navagio.jpg",
+  "web": "assets/v2/jr/jr_04.jpg"
+ },
+ {
+  "nome": "Residencial Cala Luna",
+  "status": "Em obra",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2022/05/banner-cala-luna.jpg",
+  "file": "img/05_Residencial_Cala_Luna.jpg",
+  "web": "assets/v2/jr/jr_05.jpg"
+ },
+ {
+  "nome": "Residencial Rinato",
+  "status": "Em obra",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2022/05/banner-rinato.jpg",
+  "file": "img/06_Residencial_Rinato.jpg",
+  "web": "assets/v2/jr/jr_06.jpg"
+ },
+ {
+  "nome": "Residencial Pedra da Lua",
+  "status": "Em obra",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2022/05/pedra-da-lua.jpeg",
+  "file": "img/07_Residencial_Pedra_da_Lua.jpg",
+  "web": "assets/v2/jr/jr_07.jpg"
+ },
+ {
+  "nome": "Residencial Pontal da Barra",
+  "status": "Em obra",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2022/05/joaquim-cardoso-650-e1653666159897.jpeg",
+  "file": "img/08_Residencial_Pontal_da_Barra.jpg",
+  "web": "assets/v2/jr/jr_08.jpg"
+ },
+ {
+  "nome": "Residencial Sete Coqueiros",
+  "status": "Em obra",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2022/05/sete-coqueiros2-1.jpeg",
+  "file": "img/09_Residencial_Sete_Coqueiros.jpg",
+  "web": "assets/v2/jr/jr_09.jpg"
+ },
+ {
+  "nome": "Residencial Tatiane Almeida",
+  "status": "Em obra",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2022/05/Rua-Demostenes-Madureira-de-Pinho-649-Recreio-dos-Bandeirantes.jpg",
+  "file": "img/10_Residencial_Tatiane_Almeida.jpg",
+  "web": "assets/v2/jr/jr_10.jpg"
+ },
+ {
+  "nome": "Residencial Mendes de Almeida",
+  "status": "Em obra",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2022/05/av-alfredo-baltazar-da-silveira1.jpeg",
+  "file": "img/11_Residencial_Mendes_de_Almeida.jpg",
+  "web": "assets/v2/jr/jr_11.jpg"
+ },
+ {
+  "nome": "Residencial Cervães",
+  "status": "Concluído",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2022/06/jorge-emilio-fontenelle-192-3.jpeg",
+  "file": "img/12_Residencial_Cervães.jpg",
+  "web": "assets/v2/jr/jr_12.jpg"
+ },
+ {
+  "nome": "Residencial Copacabana",
+  "status": "Concluído",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2022/05/residencial-copacabana-2.jpg",
+  "file": "img/13_Residencial_Copacabana.jpg",
+  "web": "assets/v2/jr/jr_13.jpg"
+ },
+ {
+  "nome": "Residencial Fontes",
+  "status": "Concluído",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2022/05/joaquim-cardoso-750-2.jpeg",
+  "file": "img/14_Residencial_Fontes.jpg",
+  "web": "assets/v2/jr/jr_14.jpg"
+ },
+ {
+  "nome": "Residencial M Brandão",
+  "status": "Concluído",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2022/05/ze-ferino-de-farias-129-3.jpeg",
+  "file": "img/15_Residencial_M_Brandão.jpg",
+  "web": "assets/v2/jr/jr_15.jpg"
+ },
+ {
+  "nome": "Residencial Ilda Fernandes",
+  "status": "Concluído",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2022/05/genaro-de-carvalho-1028.jpeg",
+  "file": "img/16_Residencial_Ilda_Fernandes.jpg",
+  "web": "assets/v2/jr/jr_16.jpg"
+ },
+ {
+  "nome": "Residencial Jatiuca",
+  "status": "Concluído",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2022/05/guilherme-batista-180-2.jpeg",
+  "file": "img/17_Residencial_Jatiuca.jpg",
+  "web": "assets/v2/jr/jr_17.jpg"
+ },
+ {
+  "nome": "Residencial Tia Laura",
+  "status": "Concluído",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2022/05/jose-americo-de-almeida-141-2.jpeg",
+  "file": "img/18_Residencial_Tia_Laura.jpg",
+  "web": "assets/v2/jr/jr_18.jpg"
+ },
+ {
+  "nome": "Residencial Iva Chaves e Bemposta",
+  "status": "Concluído",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2022/05/orlando-geisel-121-e-105-3.jpeg",
+  "file": "img/19_Residencial_Iva_Chaves_e_Bemposta.jpg",
+  "web": "assets/v2/jr/jr_19.jpg"
+ },
+ {
+  "nome": "Residencial Estoril",
+  "status": "Concluído",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2022/05/joao-olintho-105-1.jpeg",
+  "file": "img/20_Residencial_Estoril.jpg",
+  "web": "assets/v2/jr/jr_20.jpg"
+ },
+ {
+  "nome": "Residencial D’ Alcantara",
+  "status": "Concluído",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2022/06/Residencial-alcantara-genaro-1001.jpeg",
+  "file": "img/21_Residencial_D_Alcantara.jpg",
+  "web": "assets/v2/jr/jr_21.jpg"
+ },
+ {
+  "nome": "Residencial Arcos Lemos Bastos",
+  "status": "Lançamento",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2024/11/Fachada-Acos-Lemos-Bastos.jpg",
+  "file": "img/22_Residencial_Arcos_Lemos_Bastos.jpg",
+  "web": "assets/v2/jr/jr_22.jpg"
+ },
+ {
+  "nome": "Residencial Kamari Beach",
+  "status": "Lançamento",
+  "src": "https://justinianorocha.com.br/wp-content/uploads/2024/11/NOTURNA_FINAL-1.jpg",
+  "file": "img/23_Residencial_Kamari_Beach.jpg",
+  "web": "assets/v2/jr/jr_23.jpg"
+ }
+]
